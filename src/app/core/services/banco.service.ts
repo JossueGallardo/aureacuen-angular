@@ -5,7 +5,7 @@ import { Observable, forkJoin, map, catchError, of, throwError, switchMap } from
 /**
  * BancoService - Cliente REST para el API del banco
  * Replica la lógica de Django's BancoRest.py
- * Base URL: http://mibanca.runasp.net
+ * Base URL: https://mibanca.runasp.net
  */
 @Injectable({
     providedIn: 'root'
@@ -13,7 +13,7 @@ import { Observable, forkJoin, map, catchError, of, throwError, switchMap } from
 export class BancoService {
     private http = inject(HttpClient);
 
-    private readonly BANCO_URL = 'http://mibanca.runasp.net';
+    private readonly BANCO_URL = 'https://mibanca.runasp.net';
 
     // Cuentas fijas del sistema 
     readonly CUENTA_CLIENTE = '0707001320';  // Cuenta que usan todos los clientes

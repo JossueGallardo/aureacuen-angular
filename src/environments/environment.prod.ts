@@ -14,5 +14,5 @@ export const environment = {
   habitacionesGraphqlUrl: 'https://habitaciones-service.onrender.com/graphql',
 
   // API del banco (mantenida)
-  bankApiUrl: 'http://mibanca.runasp.net/api'
+  bankApiUrl: 'https://mibanca.runasp.net/api'
 };
