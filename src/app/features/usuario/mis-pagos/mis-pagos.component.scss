@@ -1,0 +1,85 @@
+.text-hotel {
+  color: #2f5d50;
+}
+
+.btn-hotel {
+  background: linear-gradient(135deg, #436e62 0%, #2f5d50 100%);
+  border: none;
+  color: white;
+  box-shadow: 0 4px 15px rgba(47, 93, 80, 0.35);
+  transition: all 0.3s ease;
+
+  &:hover {
+    background: linear-gradient(135deg, #2f5d50 0%, #0d1f1a 100%);
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(47, 93, 80, 0.45);
+  }
+
+  &:disabled {
+    opacity: 0.7;
+  }
+}
+
+.btn-outline-hotel {
+  border: 2px solid #2f5d50;
+  color: #2f5d50;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background-color: #2f5d50;
+    color: white;
+    transform: translateY(-2px);
+  }
+}
+
+.table {
+  th {
+    font-weight: 600;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #2f5d50;
+    background: rgba(47, 93, 80, 0.05);
+  }
+
+  td {
+    vertical-align: middle;
+  }
+}
+
+.card {
+  border: 1px solid rgba(47, 93, 80, 0.1);
+  box-shadow: 0 4px 20px rgba(47, 93, 80, 0.1);
+}
+
+.modal-backdrop {
+  z-index: 1050;
+}
+
+.modal {
+  z-index: 1055;
+}
+
+.badge.bg-success {
+  background-color: #2f5d50 !important;
+}
+
+.badge.bg-warning {
+  background-color: #f59e0b !important;
+}
+
+.page-link {
+  color: #2f5d50;
+
+  &:hover {
+    background-color: #2f5d50;
+    border-color: #2f5d50;
+    color: white;
+  }
+}
+
+.page-item.active .page-link {
+  background-color: #2f5d50;
+  border-color: #2f5d50;
+}

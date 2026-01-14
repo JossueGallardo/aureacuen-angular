@@ -1,0 +1,88 @@
+.login-wrapper {
+  min-height: 100vh;
+  background: linear-gradient(135deg, rgba(13, 31, 26, 0.85) 0%, rgba(47, 93, 80, 0.90) 100%),
+    url('https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=1920&q=80');
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.login-card-container {
+  width: 100%;
+  max-width: 420px;
+}
+
+.login-card {
+  border-radius: 1.5rem;
+  box-shadow: 0 20px 60px rgba(47, 93, 80, 0.3);
+}
+
+.text-hotel {
+  color: #2f5d50;
+}
+
+.btn-hotel {
+  background: linear-gradient(135deg, #436e62 0%, #2f5d50 100%);
+  border: none;
+  color: white;
+  border-radius: 0.75rem;
+  padding: 0.7rem;
+  font-weight: 600;
+  box-shadow: 0 4px 15px rgba(47, 93, 80, 0.35);
+  transition: all 0.3s ease;
+
+  &:hover {
+    background: linear-gradient(135deg, #2f5d50 0%, #0d1f1a 100%);
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(47, 93, 80, 0.45);
+  }
+
+  &:disabled {
+    background: #2f5d50;
+    opacity: 0.7;
+  }
+}
+
+.btn-outline-hotel {
+  border: 2px solid #2f5d50;
+  color: #2f5d50;
+  border-radius: 0.75rem;
+  padding: 0.7rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background-color: #2f5d50;
+    color: white;
+    transform: translateY(-2px);
+  }
+}
+
+.form-control,
+.input-group-text {
+  border-radius: 0.75rem;
+}
+
+.input-group .form-control {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.input-group .input-group-text {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.input-group .btn {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.invalid-feedback {
+  font-size: 0.8rem;
+}
