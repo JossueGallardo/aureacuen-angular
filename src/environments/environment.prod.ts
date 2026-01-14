@@ -1,6 +1,9 @@
 export const environment = {
   production: true,
 
+  // API Gateway para autenticación JWT
+  apiGatewayUrl: 'https://apigateway-hyaw.onrender.com/api',
+
   // URLs directas a los microservicios en Render
   catalogosServiceUrl: 'https://catalogos-service.onrender.com/api',
   habitacionesServiceUrl: 'https://habitaciones-service.onrender.com',
