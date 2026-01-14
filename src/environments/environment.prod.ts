@@ -13,6 +13,7 @@ export const environment = {
   // GraphQL endpoint para habitaciones
   habitacionesGraphqlUrl: 'https://habitaciones-service.onrender.com/graphql',
 
-  // API del banco (mantenida)
-  bankApiUrl: 'https://mibanca.runasp.net/api'
+  // API del banco - usando proxy CORS público (⚠️ TEMPORAL - NO SEGURO)
+  // Proxy público que permite peticiones HTTP desde HTTPS
+  bankApiUrl: 'https://corsproxy.io/?http://mibanca.runasp.net/api'
 };

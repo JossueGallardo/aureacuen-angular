@@ -14,7 +14,7 @@ export const environment = {
   habitacionesGraphqlUrl: 'https://habitaciones-service.onrender.com/graphql',
 
   // API del banco
-  bankApiUrl: 'https://mibanca.runasp.net/api',
+  bankApiUrl: 'http://mibanca.runasp.net/api',
 
   // Backend Django Local
   djangoUrl: 'http://localhost:8000'
